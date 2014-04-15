@@ -1,0 +1,3 @@
+[tests]
+# this method is test API
+scripts.testcases.singlecamera.MyTest.testSetCamera = 10
