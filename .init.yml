@@ -6,8 +6,9 @@ install:
   - wget http://ats.borqs.com/smartserver/static/runner.tar.gz
   - tar zxvf runner.tar.gz
   - rm runner.tar.gz
-  - mv runner/* .
-  - rm -rf runner
+  - mv runner runner_tmp
+  - mv runner_tmp/* .
+  - rm -rf runner_tmp
 
 script:
   - python run.py --loop 1
