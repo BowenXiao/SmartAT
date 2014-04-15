@@ -3,7 +3,11 @@ lang: python
 python: 2.7
 
 install:
-  - pip install -r requirements.txt -i http://pypi.dpuban.com/simple
+  - wget http://ats.borqs.com/smartserver/static/runner.tar.gz
+  - tar zxvf runner.tar.gz
+  - rm runner.tar.gz
+  - mv runner/* .
+  - rm -rf runner
 
 script:
   - python run.py --loop 1
