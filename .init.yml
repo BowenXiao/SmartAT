@@ -10,7 +10,6 @@ install:
   - mv runner_tmp/* .
   - rm -rf runner_tmp
   - sed 's/tablet_jellybean/repo/g' setup.py
-  - ./install.py
 
 script:
   - python run.py --loop 1
