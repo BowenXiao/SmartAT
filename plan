@@ -1,3 +1,31 @@
 [tests]
-# this method is test API
-scripts.testcases.singlecamera.MyTest.testSetCamera = 10
+scripts.testcases.smilecapture.CameraTest.testCapturePictureWithFlashOn = 1
+scripts.testcases.smilecapture.CameraTest.testCapturePictureWithFlashOff = 1
+scripts.testcases.smilecapture.CameraTest.testCapturePictureWithFlashAuto = 1
+scripts.testcases.smilecapture.CameraTest.testCaptureWithExposureZero = 1
+scripts.testcases.smilecapture.CameraTest.testCaptureWithExposurePlusOne = 1
+scripts.testcases.smilecapture.CameraTest.testCaptureWithExposureRedOne = 1
+scripts.testcases.smilecapture.CameraTest.testCaptureWithExposureRedTwo = 1
+scripts.testcases.smilecapture.CameraTest.testCapturePictureWithScenesAuto = 1
+scripts.testcases.smilecapture.CameraTest.testCapturePictureWithScenesSport  = 1
+scripts.testcases.smilecapture.CameraTest.testCapturePictureWithScenesNightPortrait = 1
+scripts.testcases.smilecapture.CameraTest.testCapturePictureWithScenesLandscape = 1
+scripts.testcases.smilecapture.CameraTest.testCapturePictureWithScenesPortrait = 1
+scripts.testcases.smilecapture.CameraTest.testCapturePictureWithScenesNight = 1
+scripts.testcases.smilecapture.CameraTest.testCapturePictureWithScenesBarcode = 1
+scripts.testcases.smilecapture.CameraTest.testCaptureWithPictureSizeWidesreen = 1
+scripts.testcases.smilecapture.CameraTest.testCapturePictureWithPictureSizeStandard = 1 
+scripts.testcases.smilecapture.CameraTest.testCapturepictureWithGeoLocationOn = 1
+scripts.testcases.smilecapture.CameraTest.testCapturepictureWithGeoLocationOff = 1
+scripts.testcases.smilecapture.CameraTest.testCapturepictureWithISOAuto = 1
+scripts.testcases.smilecapture.CameraTest.testCapturepictureWithISOHundred = 1
+scripts.testcases.smilecapture.CameraTest.testCapturepictureWithISOTwoHundred = 1
+scripts.testcases.smilecapture.CameraTest.testCapturepictureWithISOFourHundred = 1
+scripts.testcases.smilecapture.CameraTest.testCapturepictureWithISOEightHundred = 1
+scripts.testcases.smilecapture.CameraTest.testCapturepictureWithWhiteBalanceAuto = 1
+scripts.testcases.smilecapture.CameraTest.testCapturepictureWithWhiteBalanceIncandescent = 1
+scripts.testcases.smilecapture.CameraTest.testCapturepictureWithWhiteBalanceDaylight = 1
+scripts.testcases.smilecapture.CameraTest.testCapturepictureWithWhiteBalanceFluorescent = 1
+scripts.testcases.smilecapture.CameraTest.testCapturepictureWithWhiteBalanceCloudy = 1
+scripts.testcases.smilecapture.CameraTest.testRearFaceCapturepictureWithGeoLocationOn = 1
+scripts.testcases.smilecapture.CameraTest.testRearFaceCapturepictureWithGeoLocationOff = 1
